@@ -1,0 +1,2 @@
+serviceClass: com.intellibilling.ibill.client.PatientsService
+path: 76C944E7F07CD15A1D4DCB139A7824EC.gwt.rpc

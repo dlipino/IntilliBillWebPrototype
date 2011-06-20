@@ -1,0 +1,92 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:DockPanel horizontalAlignment="ALIGN_CENTER" verticalAlignment="ALIGN_MIDDLE">
+			<g:Dock direction="NORTH">
+				<g:HorizontalPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%">
+								<g:Label text="Number of Sites"/>
+								<g:RadioButton name="new name" text="1 site (e.g., craniospinal)"/>
+								<g:RadioButton name="new name" text="2 sites(e.g. breain &amp; ribs)"/>
+								<g:RadioButton name="new name" text="3 or more sites"/>
+								<g:RadioButton name="new name" text="Imaging only"/>
+							</g:VerticalPanel>
+					</g:FormPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%" verticalAlignment="ALIGN_BOTTOM">
+							<g:Label text="Photons"/>
+						<g:CheckBox text="6X"/>
+						<g:CheckBox text="15X"/>
+					</g:VerticalPanel>
+					</g:FormPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%">
+						<g:Label text="Electrons"/>
+						<g:CheckBox text="4MeV"/>
+						<g:CheckBox text="6MeV"/>
+						<g:CheckBox text="9MeV"/>
+						<g:CheckBox text="12MeV"/>
+						<g:CheckBox text="16MeV"/>
+						<g:CheckBox text="20MeV"/>
+					</g:VerticalPanel>
+					</g:FormPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%">
+						<g:Label text="Type of Beams"/>
+						<g:CheckBox text="Singe field beam"/>
+						<g:CheckBox text="Opposed fields beam"/>
+						<g:CheckBox text="Tangent fields beam"/>
+						<g:CheckBox text="3 or more beam"/>
+						<g:CheckBox text="IMRT"/>
+						<g:CheckBox text="Arc(s)"/>
+						<g:CheckBox text="Rapid Arc(s)"/>
+					</g:VerticalPanel>
+					</g:FormPanel>
+				</g:HorizontalPanel>
+			</g:Dock>
+			<g:Dock direction="NORTH">
+				<g:HorizontalPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%">
+						<g:Label text="Type of Imaging"/>
+						<g:CheckBox text="CBCT"/>
+						<g:CheckBox text="kV/kV"/>
+						<g:CheckBox text="kV/MV"/>
+						<g:CheckBox text="Set up reviewed by MD at Machine"/>
+						<g:HorizontalPanel>
+							<g:IntegerBox width="63px"/>
+							<g:Cell verticalAlignment="ALIGN_MIDDLE">
+								<g:Label text="# of EPID Fields"/>
+							</g:Cell>
+						</g:HorizontalPanel>
+					</g:VerticalPanel>
+					</g:FormPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%">
+						<g:Label text="Devices used"/>
+						<g:CheckBox text="Cerrobend blocks"/>
+						<g:CheckBox text="Static MLCs"/>
+						<g:CheckBox text="Moving MLCs"/>
+						<g:CheckBox text="Compensators"/>
+						<g:CheckBox text="Wedges"/>
+						<g:CheckBox text="Bite-block"/>
+					</g:VerticalPanel>
+					</g:FormPanel>
+					<g:FormPanel>
+						<g:VerticalPanel width="100%" height="100%">
+						<g:Label text="Fractions"/>
+						<g:RadioButton name="new name" text="Single fraction"/>
+						<g:RadioButton name="new name" text="2 to 5 fraction"/>
+						<g:RadioButton name="new name" text="More than 5 fraction"/>
+					</g:VerticalPanel>
+					</g:FormPanel>
+				</g:HorizontalPanel>
+			</g:Dock>
+		</g:DockPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 
